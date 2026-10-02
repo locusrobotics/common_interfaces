@@ -20,6 +20,7 @@ For more information about ROS 2 interfaces, see [docs.ros.org](https://docs.ros
 * [PolygonStamped](msg/PolygonStamped.msg): A Polygon with reference coordinate frame and timestamp.
 * [PoseArray](msg/PoseArray.msg): An array of poses with a header for global reference.
 * [Pose](msg/Pose.msg): A representation of pose in free space, composed of position and orientation.
+* [Pose2D](msg/Pose2D.msg): Deprecated planar pose retained locally for existing navigation interfaces; remove this compatibility patch after ROS 1 is retired.
 * [PoseStamped](msg/PoseStamped.msg): A Pose with reference coordinate frame and timestamp.
 * [PoseWithCovariance](msg/PoseWithCovariance.msg): A pose in free space with uncertainty.
 * [PoseWithCovarianceStamped](msg/PoseWithCovarianceStamped.msg): An estimated pose with a reference coordinate frame and timestamp.
